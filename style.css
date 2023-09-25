@@ -28,4 +28,26 @@ color: blue;
     background-color: black;
     color: white;
     padding: 32px;
+    justify-content: center;
+
+}
+
+.klima {
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+
+.whyUsContainer {
+    display: flex;
+    justify-content: row;
+
+}
+.whyUsBlock {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+
 }
