@@ -1,7 +1,8 @@
 .rowContainer {
     display: flex;
     justify-content: space-evenly;
-    padding: 50px;
+    padding: 45px;
+    
 }
 .card {
     border: solid 2px black !important;
@@ -24,15 +25,55 @@
 .leftMenu {
     display: flex;
     flex-direction: column;
-    padding: 50px
+    padding: 45px;
+    border:solid ; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    
+
+
 }
 .leftMenu a {
     text-decoration: none;
     color: rgb(0, 0, 0);
-    border-left: 5px solid rgb(255, 0, 0);
-
+    font-size: large;
+    text-decoration:underline ;
+    font-size: x-large;
+    border-radius: 10px;
+  
+    
     
 }
 .leftMenu :hover{
-    color: rgb(255, 0, 0);
+    background-color:blue ;
+    color: rgb(255, 255, 255);
+}
+
+.globalContainer {
+    display: flex;
+  
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1170px;
+    background-color: red;
+    margin: auto;
+}
+
+
+ul{
+    list-style: none;
+} 
+
+
+
+.footer {
+    background-color: #24262b;
+    padding: 70px 0;
 }
