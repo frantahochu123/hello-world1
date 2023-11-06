@@ -5,6 +5,7 @@ function checkResult() {
         } else if (inputNumber > 18) {
             console.log("dospělý uživatel")
         }
+        
         if (inputNumber > 2004) {
             console.log("dětský rok")
         } else if (inputNumber < 2005) {
