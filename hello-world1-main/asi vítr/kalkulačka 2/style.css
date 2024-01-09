@@ -62,9 +62,54 @@
 
 .button:hover {
 
-    background-color: #eaeaea;
+    border: 20px; animation: tlacitko 5s  ease infinite;
+
 
 }
+
+
+
+
+
+
+@keyframes tlacitko {
+    10% {
+     background-color: rgb(251, 1, 1);
+    }
+    20% {
+        background-color: rgb(163, 250, 1);
+    }
+    30% {
+        background-color: rgb(11, 240, 252);
+    }
+    40% {
+        background-color: rgb(13, 44, 242);
+    }
+    50% {
+        background-color: rgb(159, 10, 239);
+    }
+    60% {
+        background-color: rgb(248, 8, 176);
+    }
+    70% {
+        background-color: rgb(232, 6, 85);
+    }
+    80% {
+        background-color: rgb(241, 230, 11);
+    }
+    90% {
+        background-color: rgb(250, 201, 4);
+    }
+    100% {
+        background-color: rgb(167, 0, 0);
+    }
+}
+
+
+
+
+
+
 
 .operator {
 
@@ -134,4 +179,11 @@
 
     margin-bottom: 10px;
 
+}
+
+
+
+
+body{
+    border: 20px; animation: tlacitko 0.001s  ease infinite;
 }
