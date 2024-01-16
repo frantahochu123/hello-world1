@@ -4,11 +4,38 @@
     box-sizing: border-box;
   }
   
-  body {
-    height: 100vh;
-    display: flex;
-    background: #060AB2;
-  }
+  html {
+    height: 100%;
+    background:
+      repeating-radial-gradient(
+        circle,
+        transparent,
+        transparent 3.5em,
+        tomato 3.5em,
+        tomato 4.5em
+      ),
+      repeating-radial-gradient(
+        circle,
+        transparent,
+        transparent 3.5em,
+        dodgerblue 3.5em,
+        dodgerblue 4.5em
+      ),
+      repeating-radial-gradient(
+        circle,
+        transparent,
+        transparent 2.5em,
+        gold 2.5em,
+        gold 2.75em
+      ), floralwhite;
+    
+    background-blend-mode: multiply;
+    background-size: 10em 10em;
+    background-position:
+      0 0,
+      5em 5em,
+      10em 5em;
+    }
   
   .memory-game {
     width: 640px;
