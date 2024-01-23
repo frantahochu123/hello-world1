@@ -37,7 +37,7 @@ const questions = [
 
     {
         question: "kolik má den hodin ?",
-        optionA: "30 ",
+        optionA: "69 ",
         optionB: "38 ",
         optionC: "48 ",
         optionD: "24 ",
