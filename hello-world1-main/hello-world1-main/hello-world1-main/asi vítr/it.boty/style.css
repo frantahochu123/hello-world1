@@ -1,0 +1,457 @@
+.rowContainer{
+
+ 
+
+    display: flex;
+
+ 
+
+    justify-content: space-evenly;
+
+ 
+
+    padding-right: 20px;
+
+    padding-top: 20px;
+
+    padding-bottom: 20px;
+
+ 
+
+    flex-direction: row;
+
+ 
+
+}
+
+ 
+
+ 
+
+ 
+
+.card{
+
+ 
+
+    border: solid .1px grey !important;
+
+ 
+
+    border-radius: 0px !important;
+
+ 
+
+    margin: 20px;
+
+ 
+
+}
+
+ 
+
+ 
+
+ 
+
+.card img{
+
+ 
+
+    padding: 10px;
+
+ 
+
+}
+
+ 
+
+ 
+
+ 
+
+.card-body a {
+
+ 
+
+    background-color: green;
+
+ 
+
+    border:solid .1px green !important;
+
+ 
+
+    width: 150px;
+
+ 
+
+    display: block;
+
+ 
+
+    margin: auto;
+
+ 
+
+}
+
+ 
+
+   
+
+ 
+
+.checked {
+
+ 
+
+    color: orange;
+
+ 
+
+  }
+
+ 
+
+ 
+
+ 
+
+.leftMenu{
+
+ 
+
+    display: flex;
+
+ 
+
+    flex-direction: column;
+
+ 
+
+    padding: 20px;
+
+ 
+
+    border: solid .1px black;
+
+ 
+
+    margin-top: 50px;
+
+ 
+
+    box-shadow: 5px 10px #888888;
+
+ 
+
+}
+
+ 
+
+ 
+
+ 
+
+.leftMenu a {
+
+ 
+
+    text-decoration: none;
+
+ 
+
+    color: black;
+
+ 
+
+    font-size: large;
+
+ 
+
+    text-align: center;
+
+ 
+
+    border-bottom: 1px solid grey;
+
+   
+
+    margin-bottom: 7px;
+
+ 
+
+ 
+
+}
+
+ 
+
+ 
+
+ 
+
+.globalContainer{
+
+ 
+
+    display: flex;
+
+ 
+
+    flex-direction: row;
+
+ 
+
+}
+
+ 
+
+ 
+
+.leftMenu a:hover{
+
+ 
+
+    background-color: navy;
+
+   
+
+    color: aliceblue;
+
+ 
+
+    border-radius: 5px;
+
+}
+
+ 
+
+
+
+.rowContainer {
+
+ 
+
+    display: flex;
+
+ 
+
+    justify-content: space-evenly;
+
+ 
+
+    padding-right: 20px;
+
+    padding-top: 20px;
+
+    padding-bottom: 20px;
+
+ 
+
+    flex-direction: row;
+
+}
+
+ 
+
+ 
+
+ 
+
+.card {
+
+ 
+
+    border: solid .1px grey !important;
+
+ 
+
+    border-radius: 0px !important;
+
+ 
+
+    margin: 20px;
+
+ 
+
+}
+
+ 
+
+ 
+
+ 
+
+.card img {
+
+ 
+
+    padding: 10px;
+
+ 
+
+}
+
+ 
+
+ 
+
+ 
+
+.card-body a {
+
+ 
+
+    background-color: green;
+
+ 
+
+    border: solid .1px green !important;
+
+ 
+
+    width: 150px;
+
+ 
+
+    display: block;
+
+ 
+
+    margin: auto;
+
+ 
+
+}
+
+ 
+
+ 
+
+ 
+
+.checked {
+
+ 
+
+    color: orange;
+
+ 
+
+}
+
+ 
+
+ 
+
+ 
+
+.leftMenu {
+
+ 
+
+    display: flex;
+
+ 
+
+    flex-direction: column;
+
+ 
+
+    padding: 20px;
+
+ 
+
+    border: solid .1px black;
+
+ 
+
+    margin-top: 50px;
+
+ 
+
+    box-shadow: 5px 10px #888888;
+
+ 
+
+}
+
+ 
+
+ 
+
+ 
+
+.leftMenu a {
+
+ 
+
+    text-decoration: none;
+
+ 
+
+    color: black;
+
+ 
+
+    font-size: large;
+
+ 
+
+    text-align: center;
+
+ 
+
+    border-bottom: 1px solid grey;
+
+ 
+
+    margin-bottom: 7px;
+
+ 
+
+ 
+
+}
+
+ 
+
+ 
+
+ 
+
+.globalContainer {
+
+ 
+
+    display: flex;
+
+ 
+
+    flex-direction: row;
+
+ 
+
+}
+
+ 
+
+ 
+
+.leftMenu a:hover {
+
+ 
+
+    background-color: navy;
+
+ 
+
+    color: aliceblue;
+
+ 
+
+    border-radius: 5px;
+
+}
