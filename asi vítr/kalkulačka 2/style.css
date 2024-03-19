@@ -1,0 +1,189 @@
+.container {
+
+    border: 1px solid #cccccc;
+
+    box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);
+
+    border-radius: 20px;
+
+    position: absolute;
+
+    top: 55%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 450px;
+
+    height: 400px;
+
+}
+
+.keys {
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    grid-gap: 10px;
+
+    padding: 10px;
+
+    margin:auto;
+
+}
+
+.button {
+
+    height: 60px;
+
+    padding: 5px;
+
+    background-color: #fff;
+
+    border-radius: 3px;
+
+    border: 1px solid #c4c4c4;
+
+    background-color: transparent;
+
+    font-size: 2rem;
+
+    color: rgb(0, 0, 0);
+
+    background-image: linear-gradient(to bottom, transparent, transparent 50%, rgba(0,0,0,.04));
+
+    box-shadow: inset 0 0 0 1px rgba(49, 49, 49, 0.05), inset 0 1px 0 0 rgba(255,255,255,.45), inset 0 -1px 0 0 rgba(255,255,255,.15), 0 1px 0 0 rgba(255,255,255,.15);
+
+    text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+
+}
+
+.button:hover {
+
+    border: 20px; animation: tlacitko 5s  ease infinite;
+
+
+}
+
+
+
+
+
+
+@keyframes tlacitko {
+    10% {
+     background-color: rgb(251, 1, 1);
+    }
+    20% {
+        background-color: rgb(163, 250, 1);
+    }
+    30% {
+        background-color: rgb(11, 240, 252);
+    }
+    40% {
+        background-color: rgb(13, 44, 242);
+    }
+    50% {
+        background-color: rgb(159, 10, 239);
+    }
+    60% {
+        background-color: rgb(248, 8, 176);
+    }
+    70% {
+        background-color: rgb(232, 6, 85);
+    }
+    80% {
+        background-color: rgb(241, 230, 11);
+    }
+    90% {
+        background-color: rgb(250, 201, 4);
+    }
+    100% {
+        background-color: rgb(167, 0, 0);
+    }
+}
+
+
+
+
+
+
+
+.operator {
+
+    color: #fff;
+
+    background-color: #eebb24;
+
+}
+
+.clear {
+
+    background-color: #ff1f27;
+
+    border-color: #ff363c;
+
+    color: #fff;
+
+    width: 80px;
+
+    height: 30px;  
+
+}
+
+.clear:hover {
+
+    background-color: #f72930;
+
+}
+
+.equal-sign {
+
+    background-color: #25a8e0;
+
+    border-color: #25a8e0;
+
+    color: #fff;
+
+}
+
+.equal-sign:hover {
+
+    background-color: #00ff08;
+
+}
+
+.screen{
+
+    background-color:rgb(171, 219, 231);
+
+    justify-content: left;
+
+    color: black;
+
+    font-size: medium;
+
+    width: 50%;
+
+    height: 30%;
+
+    cursor: default;
+
+    padding: 10px; 
+
+    padding-left: 40%;
+
+    margin: auto;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+
+body{
+    border: 20px; animation: tlacitko 0.001s  ease infinite;
+}
