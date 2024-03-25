@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+   
+  .stopwatch {
+    text-align: center;
+  }
+   
+  .display {
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+   
+  .control-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+   
+  .control-button:hover {
+    background-color: #555;
+  }
