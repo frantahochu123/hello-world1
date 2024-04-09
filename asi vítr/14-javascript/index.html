@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Správa žáků ve třídě</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="input-group mb-3">
+            <h1>Správa žáků ve třídě</h1>
+            <input id="itemInput" type="text" class="form-control" placeholder="Přidat Jméno a Příjmení">
+            <button onclick="addItem()" class="btn btn-primary">Přidat žáka</button>
+        </div>
+  
+        <ul id="itemList" class="list-group">
+        </ul>
+    
+        <div class="mt-3">
+            <button id="editButton" onclick="toggleEdit()" class="btn btn-warning">Upravit něco u žáka</button>
+            <button onclick="deleteItems()" class="btn btn-danger">Smazat žáky</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
