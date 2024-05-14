@@ -1,0 +1,57 @@
+ body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  color: #333; 
+}
+ 
+button {
+  background-color: #b30000; 
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+ 
+button:hover {
+  background-color: #8c0000; 
+}
+ 
+input[type="date"],
+input[type="time"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+ 
+ 
+.calendar,
+.reservation-form,
+.login,
+.reservation-list {
+  background-color: #fff; 
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  padding: 20px;
+  margin-bottom: 20px;
+}
+ 
+.login input[type="text"],
+.login input[type="password"] {
+  margin-bottom: 10px;
+}
+ 
+.reservation-list ul {
+  list-style: none;
+  padding: 0;
+}
+ 
+.reservation-list li {
+  border-bottom: 1px solid #ccc; 
+  padding: 10px 0;
+}
