@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pekařství U nás</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Pekařství U Strak</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Domů</a></li>
+                <li><a href="#products">Koupit Zboží</a></li>
+                <li><a href="#about">O nás</a></li>
+                <li><a href="http://127.0.0.1:5500/kontakty/index.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Vítejte v Pekařství U Strak!</h2>
+            <p>Nejlepší čerstvé pečivo ve městě. Ochutnejte naše tradiční recepty.</p>
+        </section>
+        <section id="products">
+            <h2>Naše Produkty</h2>
+            <div class="product" onclick="showDetails('bread')">
+                <img src="https://www.vimcojim.cz/files/2020/magazin/15.4.%20zitny%20chleba%20shutterstock_1476063446.jpg" alt="Chléb">
+                <h3>Chleby</h3>
+            </div>
+            <div class="product" onclick="showDetails('croissant')">
+                <img src="https://assets.zuckerjagdwurst.com/u4q97pkqszcdxj62j8adg1z9xdpz/1200/640/75/true/center/undefined.jpg?animated=undefined" height="160" alt="Croissant">
+                <h3>Croissanty</h3>
+            </div>
+            <div class="product" onclick="showDetails('cake')">
+                <img src="https://cdn.administrace.tv/2022/08/06/medium_169/8973148248f7f253a14a967ead41c7ae.jpg" height="160" alt="Dort">
+                <h3>Dorty</h3>
+            </div>
+            <div id="product-details" class="details"></div>
+        </section>
+        <section id="about">
+            <h2>O nás</h2>
+            <p>Jsme rodinné pekařství s dlouholetou tradicí. Naše pečivo je vždy čerstvé a vyráběné s láskou.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Pekařství U Strak</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
