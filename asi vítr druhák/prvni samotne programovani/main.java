@@ -3,16 +3,16 @@ import java.util.Scanner;
 class main{
 public static void main(String[] args) {
     Scanner sc= new Scanner(System.in);
-    System.out.println("Chceš jít do prava?");
+    System.out.println("Jak se máš?");
     System.out.println("");
-    System.out.println("1. ANO");
-    System.out.println("2. NE");
+    System.out.println("1. Dobře");
+    System.out.println("2. Na hovno");
     String line = sc.nextLine();
     if(line.equals("1")){
-        System.out.println("Ok tak teda jdem");
+        System.out.println("Tak to jo já taky");
     }
     if(line.equals("2")){
-        System.out.println("Tak jdem do leva");
+        System.out.println("a proč?");
     }
 }
  
